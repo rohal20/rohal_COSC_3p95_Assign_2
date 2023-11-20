@@ -1,0 +1,12 @@
+dependencies {
+    // OpenTelemetry API
+    implementation 'io.opentelemetry:opentelemetry-api:1.12.1'
+
+    // OpenTelemetry Jaeger exporter
+    implementation 'io.opentelemetry:opentelemetry-exporter-jaeger:1.12.1'
+
+    // OpenTelemetry SDK (needed for trace provider)
+    implementation 'io.opentelemetry:opentelemetry-sdk:1.12.1'
+}
+
+
